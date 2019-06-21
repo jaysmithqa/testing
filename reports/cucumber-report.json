@@ -1,0 +1,74 @@
+[
+  {
+    "description": "  As an internet user\n  I want to signup to Revollet Wallet",
+    "elements": [
+      {
+        "id": "signup-to-revollet;login-to-revollet-wallet",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login to Revollet Wallet",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I visited \"https://prod-staging.revollet.io/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1014560
+            },
+            "line": 6,
+            "match": {
+              "location": "2\\automation-test\\features\\step_definitions\\revollet_login_steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I Click Link Button \"Create Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 2024968
+            },
+            "line": 7,
+            "match": {
+              "location": "2\\automation-test\\features\\step_definitions\\revollet_login_steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input \"naruchan\" and \"ngocbichdo031095@gmail.com\" and \"Naru2311\" and \"Naru2311\"",
+            "result": {
+              "status": "passed",
+              "duration": 4246278
+            },
+            "line": 8,
+            "match": {
+              "location": "2\\automation-test\\features\\step_definitions\\revollet_login_steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 10615927054
+            },
+            "hidden": true,
+            "match": {
+              "location": "2\\automation-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "signup-to-revollet",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Signup to revollet",
+    "tags": [],
+    "uri": "D:/New folder/Testing 2/automation-test/features/revollet_login.feature"
+  }
+]

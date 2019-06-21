@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="signup-to-revollet;login-to-revollet-wallet" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/New folder/Testing 2/automation-test/features/revollet_login.feature">
+            </property>
+        </properties>
+        <testcase name="When I visited &quot;https://prod-staging.revollet.io/&quot;" classname="signup-to-revollet;login-to-revollet-wallet" time="0.00101456">
+        </testcase>
+        <testcase name="Then I Click Link Button &quot;Create Account&quot;" classname="signup-to-revollet;login-to-revollet-wallet" time="0.002024968">
+        </testcase>
+        <testcase name="Then I input &quot;naruchan&quot; and &quot;ngocbichdo031095@gmail.com&quot; and &quot;Naru2311&quot; and &quot;Naru2311&quot;" classname="signup-to-revollet;login-to-revollet-wallet" time="0.004246278">
+        </testcase>
+    </testsuite>
+</testsuites>
